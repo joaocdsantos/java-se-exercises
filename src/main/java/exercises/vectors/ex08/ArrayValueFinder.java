@@ -3,7 +3,7 @@ package exercises.vectors.ex08;
 import java.util.Random;
 import java.util.Scanner;
 
-public class ValueFinder {
+public class ArrayValueFinder {
     /**
      * Exercício: Procurar um valor
      * Cria um vetor com 10 números aleatórios.
@@ -14,33 +14,35 @@ public class ValueFinder {
     public static void main(String[] args) {
 
         Random rand = new Random();
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         int[] numbers = new int[10];
 
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = rand.nextInt(10);
         }
 
-        System.out.println("====== MENU ======");
-        System.out.println("Introduza um valor inteiro 0-9");
-        int input = sc.nextInt();
-
-
-        for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] == input) {
-                System.out.println("O número " + input + " existe na posição " + (i + 1));
-            }
-        }
-
-        System.out.println("==================");
-        System.out.println("10 Números Aleatórios :");
+        System.out.print("Array values: ");
         for (int num : numbers) {
             System.out.print(" | " + num);
         }
         System.out.println(" |");
 
-        System.out.println("====== FIM ======");
+        System.out.print("Enter a number (0-9): ");
+        int input = scanner.nextInt();
 
-        sc.close();
+        boolean found = false;
+
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] == input) {
+                System.out.println("Value "+ input + " found at position: " + (i + 1));
+                found = true;
+            }
+        }
+
+        if (!found) {
+            System.out.println("Value not found in the array.");
+        }
+
+        scanner.close();
     }
 }

@@ -6,33 +6,28 @@ public class MeanValues {
     /**
      * Exercício: Média de valores
      * Cria um vetor com 6 notes (valores double) e imprime a média.
-     *
-     * @param args not used
      */
     public static void main(String[] args) {
 
-
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         double[] notes = new double[6];
 
-        System.out.println("=== MENU ===");
-        System.out.println("Introduza 6 notas:");
+        System.out.println("Enter 6 values:");
 
         for (int i = 0; i < notes.length; i++) {
-                notes[i] = sc.nextDouble();
+            System.out.print("Value " + (i + 1) + ": ");
+            notes[i] = scanner.nextDouble();
         }
 
-        // sum all values
         double sum = 0;
         for (double note : notes) {
             sum += note;
         }
-        //calc average
         double average = sum / notes.length;
 
-        System.out.println("\nA média das notas é: " + average);
+        System.out.printf("Average: %.2f%n", average);
 
-        sc.close();
+        scanner.close();
     }
 }
 

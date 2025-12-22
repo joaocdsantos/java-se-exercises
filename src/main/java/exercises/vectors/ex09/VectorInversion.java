@@ -7,30 +7,26 @@ public class VectorInversion {
     /**
      * Exercício: Inverter vetor
      * Lê 7 números para um vetor e depois imprime-os na ordem inversa.
-     *
-     * @param args not used
      */
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         int[] numbers = new int[7];
 
-        System.out.println("====== MENU ======");
-        System.out.println("Introduza 7 números:");
+        System.out.println("Enter 7 integers:");
 
         for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = sc.nextInt();
+            System.out.print("Number " + (i + 1) + ": ");
+            numbers[i] = scanner.nextInt();
         }
 
-        System.out.println("==================");
-        System.out.print("Invertidos:");
+        System.out.print("Reversed order: ");
         for (int i = numbers.length - 1; i >= 0; i--) {
             System.out.print(" | " + numbers[i]);
         }
         System.out.println(" |");
-        System.out.println("====== FIM ======");
 
-        sc.close();
+        scanner.close();
     }
 }
