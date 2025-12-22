@@ -1,0 +1,46 @@
+package exercises.vectors.ex08;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class ValueFinder {
+    /**
+     * Exercício: Procurar um valor
+     * Cria um vetor com 10 números aleatórios.
+     * Pede ao utilizador um número e diz se existe no vetor e em que posição.
+     *
+     * @param args not used
+     */
+    public static void main(String[] args) {
+
+        Random rand = new Random();
+        Scanner sc = new Scanner(System.in);
+        int[] numbers = new int[10];
+
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = rand.nextInt(10);
+        }
+
+        System.out.println("====== MENU ======");
+        System.out.println("Introduza um valor inteiro 0-9");
+        int input = sc.nextInt();
+
+
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] == input) {
+                System.out.println("O número " + input + " existe na posição " + (i + 1));
+            }
+        }
+
+        System.out.println("==================");
+        System.out.println("10 Números Aleatórios :");
+        for (int num : numbers) {
+            System.out.print(" | " + num);
+        }
+        System.out.println(" |");
+
+        System.out.println("====== FIM ======");
+
+        sc.close();
+    }
+}
