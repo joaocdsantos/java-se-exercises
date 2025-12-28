@@ -6,9 +6,10 @@ import java.util.Scanner;
 public class CelsiusToFahrenheit {
 
     /**
-     * Exercício 1
-     * Leia uma temperatura em graus Celsius e apresente-a convertida em graus Fahrenheit.
-     * A formula de conversão é: F = Cx(9.0/5.0)+32.0, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.
+     * Exercise 1
+     * Read a temperature value in Celsius and display the converted value in Fahrenheit.
+     * Conversion formula: F = C × (9.0 / 5.0) + 32.0
+     * (F = Fahrenheit, C = Celsius)
      */
     public static void main(String[] args) {
 

@@ -5,9 +5,9 @@ import java.util.Random;
 public class VectorPrinter {
 
     /**
-     * Exercício 1 — Criar e percorrer um vetor (nível básico)
-     * Criar um vetor de 5 números inteiros e imprime-os todos no ecrã.
-     * Objetivo: declarar vetores e usar um ciclo for.
+     * Exercise 1 — Create and iterate an array (basic level)
+     * Create an array with 5 integers and print all values to the screen.
+     * Goal: declare arrays and use a for loop.
      */
     public static void main(String[] args) {
 

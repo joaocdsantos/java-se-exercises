@@ -3,8 +3,8 @@ package exercises.loops.ex01;
 public class EvenNumbersPrinter {
 
     /**
-     * Exercício: Contar números pares
-     * Escreve um programa que imprime todos os números pares entre 1 e 50.
+     * Exercise: Count even numbers
+     * Write a program that prints all even numbers from 1 to 50.
      */
     public static void main(String[] args) {
 

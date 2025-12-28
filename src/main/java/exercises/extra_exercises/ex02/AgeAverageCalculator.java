@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class AgeAverageCalculator {
 
     /**
-     * Exercício 2 — Ler valores para um vetor
-     * Pede ao utilizador 5 idades, guarda-as num vetor e depois imprime a média.
+     * Exercise 2 — Read values into an array
+     * Ask the user for 5 ages, store them in an array, and then print the average.
      */
     public static void main(String[] args) {
 

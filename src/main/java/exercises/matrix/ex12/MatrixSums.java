@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class MatrixSums {
     /**
-     * Exercício: Soma da matriz
-     * Lê uma matriz 3×3 de inteiros e calcula:
-     * a soma total dos elementos
-     * a soma da primeira linha
-     * a soma da diagonal principal
+     * Exercise: Matrix sum
+     * Read a 3×3 integer matrix and calculate:
+     * - the total sum of all elements
+     * - the sum of the first row
+     * - the sum of the main diagonal
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

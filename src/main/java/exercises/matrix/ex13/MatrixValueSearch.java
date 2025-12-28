@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class MatrixValueSearch {
     /**
-     * Exercício: Procurar na matriz
-     * Cria uma matriz 4×4 com números aleatórios entre 1 e 20.
-     * Pede ao utilizador um valor e diz se existe na matriz e em que posição.
+     * Exercise: Search in matrix
+     * Create a 4×4 matrix with random numbers between 1 and 20.
+     * Ask the user for a value and say whether it exists in the matrix and in which position.
      */
     public static void main(String[] args) {
 

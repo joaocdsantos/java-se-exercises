@@ -2,11 +2,11 @@ package exercises.vectors.ex09;
 
 import java.util.Scanner;
 
-public class VectorInversion {
+public class ArrayReverse {
 
     /**
-     * Exercício: Inverter vetor
-     * Lê 7 números para um vetor e depois imprime-os na ordem inversa.
+     * Exercise: Reverse array
+     * Read 7 numbers into an array, then print them in reverse order.
      */
     public static void main(String[] args) {
 

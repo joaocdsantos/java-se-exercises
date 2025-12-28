@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class StoreNames {
     /**
-     * Exercício: Guardar nomes
-     * Cria um vetor de 5 posições para guardar nomes introduzidos pelo utilizador e imprime-os todos.
+     * Exercise: Store names
+     * Create an array with 5 positions to store names entered by the user and print all of them.
      */
     public static void main(String[] args) {
 

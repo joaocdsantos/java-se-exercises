@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class CountOccurrencesOfFive {
 
     /**
-     * Exercício: Contar ocorrências
-     * Lê 10 números para um vetor e conta quantas vezes aparece o número 5.
+     * Exercise: Count occurrences
+     * Read 10 numbers into an array and count how many times the number 5 appears.
      */
     public static void main(String[] args) {
 

@@ -3,9 +3,9 @@ package exercises.extra_exercises.ex05;
 public class MultiplicationTable {
 
     /**
-     * Exercício 5 — Tabela de multiplicação (matriz)
-     * Cria uma matriz 10×10 que representa a tabuada de multiplicar e imprime-a no ecrã.
-     * Objetivo: loops aninhados + matrizes.
+     * Exercise 5 — Multiplication table (matrix)
+     * Create a 10×10 matrix that represents a multiplication table and print it to the screen.
+     * Goal: nested loops + matrices.
      */
     public static void main(String[] args) {
 

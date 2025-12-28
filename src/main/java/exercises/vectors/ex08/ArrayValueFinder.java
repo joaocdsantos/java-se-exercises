@@ -4,12 +4,11 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class ArrayValueFinder {
+
     /**
-     * Exercício: Procurar um valor
-     * Cria um vetor com 10 números aleatórios.
-     * Pede ao utilizador um número e diz se existe no vetor e em que posição.
-     *
-     * @param args not used
+     * Exercise: Search for a value
+     * Create an array with 10 random numbers.
+     * Ask the user for a number and say whether it exists in the array and in which position.
      */
     public static void main(String[] args) {
 

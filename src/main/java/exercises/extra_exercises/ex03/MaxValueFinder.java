@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class MaxValueFinder {
 
     /**
-     * Exercício 3 — Encontrar o maior número num vetor
-     * Dado um vetor de inteiros, encontra o maior valor.
-     * Objetivo: percorrer vetores e criar um método simples.
+     * Exercise 3 — Find the largest number in an array
+     * Given an array of integers, find the largest value.
+     * Goal: iterate through arrays and build a simple method.
      */
     public static void main(String[] args) {
 

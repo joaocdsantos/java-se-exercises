@@ -5,8 +5,9 @@ import java.util.Scanner;
 public class MultiplicationTable {
 
     /**
-     * Exercício 2
-     * Ler da consola um valor ate 10 e apresentar a tabuada do mesmo.
+     * Exercise 2
+     * Read a value from the console (up to 10) and display its multiplication table.
+     * Example:
      * 1 x 4 = 4
      * 2 x 4 = 8
      * ...

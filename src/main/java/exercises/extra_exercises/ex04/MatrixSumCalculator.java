@@ -4,11 +4,11 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class MatrixSumCalculator {
-    /**
-     * Exercício 4 — Somar elementos de uma matriz (2D)
-     * Cria uma matriz 3×3 com valores inteiros à tua escolha e calcula a soma total.
-     */
 
+    /**
+     * Exercise 4 — Sum elements of a 2D matrix
+     * Create a 3×3 matrix with integer values of your choice and calculate the total sum.
+     */
     public static void main(String[] args) {
 
         Random random = new Random();

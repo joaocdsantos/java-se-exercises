@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class MatrixInputPrinter {
 
     /**
-     * Exercício: Criar matriz 3x3
-     * Cria uma matriz 3×3 com números introduzidos pelo utilizador e imprime-a em formato de tabela.
+     * Exercise: Create a 3x3 matrix
+     * Create a 3×3 matrix with numbers provided by the user and print it in a table format.
      */
     public static void main(String[] args) {
 

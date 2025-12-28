@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class MaxNumberFinder {
     /**
-     * Exercício: Encontrar o maior número
-     * Pede 5 números ao utilizador e indica qual é o maior.
+     * Exercise: Find the largest number
+     * Ask the user for 5 numbers and display which one is the largest.
      */
     public static void main(String[] args) {
 

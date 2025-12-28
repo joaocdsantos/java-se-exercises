@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class MeanValues {
     /**
-     * Exercício: Média de valores
-     * Cria um vetor com 6 notes (valores double) e imprime a média.
+     * Exercise: Average of values
+     * Create an array with 6 values (double) and print the average.
      */
     public static void main(String[] args) {
 

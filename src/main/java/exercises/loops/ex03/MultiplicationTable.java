@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class MultiplicationTable {
 
     /**
-     * Exercício: Tabuada
-     * Pede ao utilizador um número e imprime a respetiva tabuada de 1 a 10 usando um ciclo for.
+     * Exercise: Multiplication Table
+     * Ask the user for a number and print its multiplication table from 1 to 10 using a for loop.
      */
     public static void main(String[] args) {
 

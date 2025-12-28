@@ -5,8 +5,9 @@ import java.util.Scanner;
 public class EvenOrOddChecker {
 
     /**
-     * Exercício 3
-     * Fazer a leitura de um número inteiro e verificar se ele é par ou ímpar.
+     * Exercise 3
+     * Read an integer from the console and determine if it is even or odd.
+     * Print the result to the user.
      */
     public static void main(String[] args) {
 

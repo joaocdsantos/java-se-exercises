@@ -2,8 +2,8 @@ package exercises.matrix.ex14;
 
 public class IdentityMatrix {
     /**
-     * Exercício: Matriz identidade
-     * Gera uma matriz identidade 5×5 usando ciclos aninhados.
+     * Exercise: Identity matrix
+     * Generate a 5×5 identity matrix using nested loops.
      */
     public static void main(String[] args) {
 

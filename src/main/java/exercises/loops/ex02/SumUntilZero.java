@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class SumUntilZero {
     /**
-     * Exercício: Soma de números
-     * Pede ao utilizador vários números até que este digite 0.
-     * No final, mostra a soma total.
+     * Exercise: Sum of numbers
+     * Ask the user to enter multiple numbers until they type 0.
+     * At the end, display the total sum.
      */
     public static void main(String[] args) {
 

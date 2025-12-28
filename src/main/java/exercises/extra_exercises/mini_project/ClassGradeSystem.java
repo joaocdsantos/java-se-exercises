@@ -3,16 +3,17 @@ package exercises.extra_exercises.mini_project;
 import java.util.Scanner;
 
 public class ClassGradeSystem {
+
     /**
-     * Mini-Projeto – Sistema de Notas da Turma
-     * 1.- Guarda os nomes dos alunos num vetor.
-     * 2.- Guarda as notas numa matriz 5 x 3.
-     * 3.- Cria métodos para:
-     * - ler as notas do utilizador
-     * - imprimir a matriz de notas
-     * - calcular a média de um aluno
-     * - calcular a média da disciplina X
-     * - descobrir qual é o melhor aluno
+     * Mini-Project — Class Grade System
+     * 1. Store student names in an array.
+     * 2. Store grades in a 5×3 matrix.
+     * 3. Create methods to:
+     *    - read grades from the user
+     *    - print the grade matrix
+     *    - calculate the average of a specific student
+     *    - calculate the average of a specific subject
+     *    - determine which student has the highest average
      */
     public static void main(String[] args) {
 

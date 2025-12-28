@@ -3,10 +3,11 @@ package exercises.matrix.ex15;
 import java.util.Scanner;
 
 public class MatrixRowMaximums {
+
     /**
-     * Exercício: Maior de cada linha
-     * Cria uma matriz 3×4 com números introduzidos pelo utilizador.
-     * Imprime o maior número de cada linha.
+     * Exercise: Largest in each row
+     * Create a 3×4 matrix with numbers provided by the user.
+     * Print the largest number in each row.
      */
     public static void main(String[] args) {
 

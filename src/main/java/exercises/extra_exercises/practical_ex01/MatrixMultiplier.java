@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class MatrixMultiplier {
 
     /**
-     * Vamos escrever um programa que peça o tamanho de uma matriz (A), e depois crie e inicialize a
-     * matriz que deverá ter o tamanho AxA e com números de 1 até AxA.
-     * De seguida, faça o dump (escreva todo o conteúdo) da matriz.
-     * Depois vamos multiplicar a matriz por outro valor que iremos pedir ao utilizador, e voltar a
-     * fazer o dump da matriz multiplicada
+     * Write a program that asks the user for the size of a matrix (A),
+     * then creates and initializes an AxA matrix with numbers from 1 to AxA.
+     * Next, print (dump) the entire matrix on the screen.
+     * Then, multiply the matrix by a number provided by the user
+     * and print the matrix again after the multiplication.
      */
     public static void main(String[] args) {
 

@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class readArrayFromUser {
 
     /**
-     * Vamos trabalhar com Collections (vetores, arrays, listas,..)
-     * O objectivo é ler da consola um número que vai indicar o tamanho de um array ou vetor, que
-     * depois tem de ser preenchido com valores lidos da consola.
+     * Working with Collections (arrays, lists, etc.)
+     * The goal is to read a number from the console that will define
+     * the size of an array, which must then be filled with values
+     * read from the console.
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

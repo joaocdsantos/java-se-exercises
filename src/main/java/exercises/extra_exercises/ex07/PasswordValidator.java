@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class PasswordValidator {
 
     /**
-     * Exercício 7 — Validar passwords (métodos + vetor de chars)
-     * Pede ao utilizador uma password e cria um método que retorna true se:
-     * tiver pelo menos 8 caracteres
-     * tiver pelo menos 1 número
-     * tiver pelo menos 1 letra maiúscula
-     * Objetivo: exercícios de lógica + vetores de caracteresx
+     * Exercise 7 — Password validation (methods + char array)
+     * Ask the user for a password and create a method that returns true if:
+     * - it has at least 8 characters
+     * - it has at least 1 number
+     * - it has at least 1 uppercase letter
+     * Goal: logic exercises + character arrays.
      */
     public static void main(String[] args) {
 
