@@ -6,7 +6,7 @@ package exercises.generics.ex3;
  * Create a generic method:
  *      public static <T> void printArray(T[] array)
  * that prints each element of any array type.
- *
+ * -------------------------------
  * Test with arrays of:
  * - Integer
  * - String
