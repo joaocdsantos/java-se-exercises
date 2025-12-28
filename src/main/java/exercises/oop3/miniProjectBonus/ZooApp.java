@@ -8,14 +8,12 @@ import java.util.*;
  * ------------------------------------------------
  * In this exercise, you will load animal objects from a CSV file
  * instead of creating them manually in the code.
- *
  * Concepts demonstrated:
  * ✔ Inheritance
  * ✔ Polymorphism
  * ✔ Abstract classes
  * ✔ Interfaces
  * ✔ File reading with Scanner (CSV)
- *
  * ------------------------------------------------
  * Instructions:
  * 1. Complete the previous Zoo project (Animal, subclasses, Trainable interface).
@@ -26,40 +24,37 @@ import java.util.*;
  *    - Animals being created dynamically from the CSV file
  *    - makeSound() and feed() being called using polymorphism
  *    - Trainable animals being added to a separate list and trained
- *
  * ------------------------------------------------
  * CSV structure (example):
  * type,name,age
  * Lion,Simba,5
  * Elephant,Dumbo,10
  * Monkey,George,3
- *
  * ------------------------------------------------
  * Expected Behaviour:
- * 📌 Read each line of the CSV, create the correct animal type
- * 📌 Print information using overridden methods
- * 📌 If the animal implements Trainable, call train()
- *
+ * Read each line of the CSV, create the correct animal type
+ * Print information using overridden methods
+ * If the animal implements Trainable, call train()
  * ------------------------------------------------
  * Expected Output Example:
  * Loaded Animals:
  * Lion: Simba (5 years)
  * Elephant: Dumbo (10 years)
  * Monkey: George (3 years)
- *
+ * ------------------------------------------------
  * Animal Sounds:
  * Simba makes Rooooar!
  * Dumbo makes Fuuuuuh!
  * George makes Uh uh ah ah!
- *
+ * ------------------------------------------------
  * Feeding:
  * Simba eats meat.
  * Dumbo eats plants.
  * George eats fruit.
- *
+ * ------------------------------------------------
  * Trainable Animals:
  * George is being trained for shows!
- *
+ * ------------------------------------------------
  * Program finished successfully!
  * ------------------------------------------------
  * Goal:
