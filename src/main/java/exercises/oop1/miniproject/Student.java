@@ -21,6 +21,6 @@ public class Student extends Person {
 
     public void showInfo() {
         System.out.print("Nome: " + getName() + " | Student Number : " + getStudentNumber() + " | Age: " + getAge());
-        System.out.printf(" | Average: %.2f%n", averageGrade);
+        System.out.printf(" | Average: %.2f%n", getAverageGrade());
     }
 }
