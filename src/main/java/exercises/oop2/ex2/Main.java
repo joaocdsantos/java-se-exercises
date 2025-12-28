@@ -4,7 +4,6 @@ package exercises.oop2.ex2;
  * 2. Exercise – Inheritance with Super Constructor
  * ------------------------
  * Create the following classes:
- *
  * Animal
  * - attribute: name
  * - method: makeSound()
