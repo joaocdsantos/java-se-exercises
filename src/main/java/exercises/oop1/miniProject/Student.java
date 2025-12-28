@@ -1,4 +1,4 @@
-package exercises.oop1.miniproject;
+package exercises.oop1.miniProject;
 
 public class Student extends Person {
 
